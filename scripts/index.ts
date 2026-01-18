@@ -7,44 +7,35 @@ console.log('starting')
 fs.mkdir('./themes', { recursive: true })
   .then(() => Promise.all([
     fs.writeJSON(
-      './themes/vitesse-light.json',
+      './themes/serein-light.json',
       getTheme({
         color: 'light',
-        name: 'Vitesse Light',
+        name: 'Serein Light',
       }),
       { spaces: 2 },
     ),
     fs.writeJSON(
-      './themes/vitesse-dark.json',
+      './themes/serein-dark.json',
       getTheme({
         color: 'dark',
-        name: 'Vitesse Dark',
+        name: 'Serein Dark',
       }),
       { spaces: 2 },
     ),
     fs.writeJSON(
-      './themes/vitesse-black.json',
-      getTheme({
-        color: 'dark',
-        name: 'Vitesse Black',
-        black: true,
-      }),
-      { spaces: 2 },
-    ),
-    fs.writeJSON(
-      './themes/vitesse-light-soft.json',
+      './themes/serein-light-soft.json',
       getTheme({
         color: 'light',
-        name: 'Vitesse Light Soft',
+        name: 'Serein Light Soft',
         soft: true,
       }),
       { spaces: 2 },
     ),
     fs.writeJSON(
-      './themes/vitesse-dark-soft.json',
+      './themes/serein-dark-soft.json',
       getTheme({
         color: 'dark',
-        name: 'Vitesse Dark Soft',
+        name: 'Serein Dark Soft',
         soft: true,
       }),
       { spaces: 2 },
@@ -54,27 +45,18 @@ fs.mkdir('./themes', { recursive: true })
 fs.mkdir('./extra', { recursive: true })
   .then(() => Promise.all([
     fs.writeJSON(
-      './extra/xterm-vitesse-light.json',
+      './extra/xterm-serein-light.json',
       getXtermTheme({
         color: 'light',
-        name: 'Vitesse Light',
+        name: 'Serein Light',
       }),
       { spaces: 2 },
     ),
     fs.writeJSON(
-      './extra/xterm-vitesse-dark.json',
+      './extra/xterm-serein-dark.json',
       getXtermTheme({
         color: 'dark',
-        name: 'Vitesse Dark',
-      }),
-      { spaces: 2 },
-    ),
-    fs.writeJSON(
-      './extra/xterm-vitesse-black.json',
-      getXtermTheme({
-        color: 'dark',
-        name: 'Vitesse Black',
-        black: true,
+        name: 'Serein Dark',
       }),
       { spaces: 2 },
     ),

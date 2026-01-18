@@ -1,10 +1,9 @@
-import { colors, VitesseThemes } from './colors'
+import { colors, SereinThemes } from './colors'
 
 export interface GetThemeOptions {
   color: 'light' | 'dark'
   name: string
   soft?: boolean
-  black?: boolean
 }
 
 function toArray<T>(arr: T | T[]): T[] {
@@ -38,15 +37,13 @@ function capitalize(str: string) {
   return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
-export function createThemeHelpers({ color, soft = false, black = false }: GetThemeOptions) {
+export function createThemeHelpers({ color, soft = false }: GetThemeOptions) {
   const pick = (options: { light?: string, dark?: string }) => options[color]
 
-  const v = (key: keyof typeof VitesseThemes, op = '') => {
-    let obj = black
-      ? VitesseThemes[`black${capitalize(key)}` as keyof typeof VitesseThemes] || VitesseThemes[key]
-      : soft
-        ? VitesseThemes[`soft${capitalize(key)}` as keyof typeof VitesseThemes] || VitesseThemes[key]
-        : VitesseThemes[key]
+  const v = (key: keyof typeof SereinThemes, op = '') => {
+    let obj = soft
+      ? SereinThemes[`soft${capitalize(key)}` as keyof typeof SereinThemes] || SereinThemes[key]
+      : SereinThemes[key]
 
     if (typeof obj === 'string')
       obj = [obj, obj]

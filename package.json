@@ -1,23 +1,24 @@
 {
   "publisher": "antfu",
-  "name": "theme-vitesse",
-  "displayName": "Vitesse Theme",
-  "version": "1.0.1",
+  "name": "theme-serein",
+  "displayName": "Serein Theme",
+  "version": "0.1.0",
   "packageManager": "pnpm@10.15.0",
-  "description": "Vitesse theme for VS Code",
+  "description": "Serein theme for VS Code",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antfu/vscode-theme-vitesse"
+    "url": "https://github.com/abeixiaolu/vscode-theme-serein"
   },
   "bugs": {
-    "url": "https://github.com/antfu/vscode-theme-vitesse/issues"
+    "url": "https://github.com/abeixiaolu/vscode-theme-serein/issues"
   },
   "keywords": [
     "theme",
-    "vitesse",
+    "serein",
     "light",
-    "dark"
+    "dark",
+    "serein"
   ],
   "categories": [
     "Themes"
@@ -38,29 +39,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "Vitesse Light",
+        "label": "Serein Light",
         "uiTheme": "vs",
-        "path": "./themes/vitesse-light.json"
+        "path": "./themes/serein-light.json"
       },
       {
-        "label": "Vitesse Dark",
+        "label": "Serein Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-dark.json"
+        "path": "./themes/serein-dark.json"
       },
       {
-        "label": "Vitesse Black",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-black.json"
-      },
-      {
-        "label": "Vitesse Light Soft",
+        "label": "Serein Light Soft",
         "uiTheme": "vs",
-        "path": "./themes/vitesse-light-soft.json"
+        "path": "./themes/serein-light-soft.json"
       },
       {
-        "label": "Vitesse Dark Soft",
+        "label": "Serein Dark Soft",
         "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-dark-soft.json"
+        "path": "./themes/serein-dark-soft.json"
       }
     ]
   },

@@ -12,8 +12,8 @@ export const colors = {
 }
 
 // [dark, light]
-export const VitesseThemes = {
-  primary: ['#4d9375', '#1c6b48'],
+export const SereinThemes = {
+  primary: ['#8BB6C2', '#188ca9'],
 
   foreground: ['#dbd7caee', '#393a34'],
   activeForeground: ['#bfbaaa', '#4e4f47'],
@@ -23,44 +23,38 @@ export const VitesseThemes = {
   faded: ['#dedcd510', '#393a3410'],
   border: ['#191919', '#f0f0f0'],
 
-  background: ['#121212', '#ffffff'],
-  activeBackground: ['#181818', '#f7f7f7'],
+  background: ['#0F0F0F', '#ffffff'],
+  activeBackground: ['#1E1E1E', '#f7f7f7'],
   selectionBackground: ['#eeeeee18', '#22222218'],
   selectionBackgroundActive: ['#eeeeee18', '#22222218'],
   selectionBackgroundInActive: ['#eeeeee10', '#22222210'],
 
   // soft overrides
-  softBackground: ['#222', '#F1F0E9'],
-  softActiveBackground: ['#292929', '#E7E5DB'],
-  softBorder: ['#252525', '#E7E5DB'],
-
-  // black overrides
-  blackForeground: '#dbd7cacc',
-  blackBackground: '#000',
-  blackActiveBackground: '#121212',
-  blackPunctuation: '#444444',
+  softBackground: ['#222', '#FFFAF3'],
+  softActiveBackground: ['#292929', '#F4EEE8'],
+  softBorder: ['#252525', '#F4EEE8'],
 
   comment: ['#758575dd', '#a0ada0'],
-  string: ['#c98a7d', '#b56959'],
-  variable: ['#bd976a', '#b07d48'],
-  keyword: ['#4d9375', '#1e754f'],
+  string: ['#D88385', '#bd3f3f'],
+  variable: ['#C69B8A', '#ab6b18'],
+  keyword: ['#80C19A', '#2b9815'],
   number: ['#4C9A91', '#2f798a'],
-  boolean: ['#4d9375', '#1e754f'],
+  boolean: ['#80C19A', '#2b9815'],
   operator: ['#cb7676', '#ab5959'],
-  function: ['#80a665', '#59873a'],
-  constant: ['#c99076', '#a65e2b'],
-  class: ['#6872ab', '#5a6aa6'],
+  function: ['#8BB6C2', '#188ca9'],
+  constant: ['#c8b37a', '#b69c18'],
+  class: ['#8190ca', '#4655c8'],
   interface: ['#5d99a9', '#2e808f'],
-  type: ['#5DA994', '#2e8f82'],
+  type: ['#54B6B5', '#1b91b8'],
   builtin: ['#cb7676', '#ab5959'],
-  property: ['#b8a965', '#998418'],
+  property: ['#8BB6C2', '#188ca9'],
   namespace: ['#db889a', '#b05a78'],
   punctuation: ['#666666', '#999999'],
   decorator: ['#bd8f8f', '#bd8f8f'],
   regex: ['#c4704f', '#ab5e3f'],
 
   // colors
-  green: ['#4d9375', '#1e754f'],
+  green: ['#80C19A', '#2b9815'],
   cyan: ['#5eaab5', '#2993a3'],
   blue: ['#6394bf', '#296aa3'],
   red: ['#cb7676', '#ab5959'],
