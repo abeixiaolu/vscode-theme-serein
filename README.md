@@ -1,7 +1,7 @@
 <h1 align="center">Serein Theme for VS Code</h1>
 
 <p align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=abei.theme-serein" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/antfu.theme-serein.svg?color=4d9375&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=abei.theme-serein" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/abei.theme-serein.svg?style=flat&color=4d9375&label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
 </p>
 
 <p align="center">
