@@ -2,7 +2,7 @@
   "publisher": "abei",
   "name": "theme-serein",
   "displayName": "Serein Theme",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packageManager": "pnpm@10.15.0",
   "description": "Serein theme for VS Code",
   "license": "MIT",
