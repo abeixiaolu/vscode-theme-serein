@@ -2,7 +2,7 @@
   "publisher": "abei",
   "name": "theme-serein",
   "displayName": "Serein Theme",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "packageManager": "pnpm@10.15.0",
   "description": "A soft, serene color theme with light and dark variants for a calm coding experience",
   "license": "MIT",
